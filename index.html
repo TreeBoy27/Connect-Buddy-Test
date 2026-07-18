@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BRAINROT RIFT — Collect. Fuse. Dominate the Rift.</title>
+  <meta name="description" content="BRAINROT RIFT is a chaotic Roblox collector-tycoon. Hunt Italian brainrots, fuse mythics, build your rift empire and battle for the global leaderboard." />
+  <meta name="theme-color" content="#05060f" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="BRAINROT RIFT" />
+  <meta property="og:description" content="Collect. Fuse. Dominate the Rift. A chaotic Roblox brainrot collector-tycoon." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%A0%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="bg-orbs"></div>
+  <div class="bg-grid"></div>
+  <div class="noise"></div>
+
+  <!-- ============== NAV ============== -->
+  <header class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Brainrot Rift home">
+        <span class="logo">🧠</span> BRAINROT<span style="color:var(--c2)">RIFT</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#features">Features</a>
+        <a href="#brainrots">Brainrots</a>
+        <a href="#how">How to play</a>
+        <a href="#stats">Stats</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn btn-ghost" href="#how">Trailer</a>
+        <a class="btn btn-primary" href="#play">▶ Play on Roblox</a>
+        <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============== HERO ============== -->
+    <section class="hero">
+      <canvas id="hero-canvas"></canvas>
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><span class="dot"></span> Season 3 — The Mythic Rift is live</span>
+          <h1><span class="gradient-text">Collect. Fuse.</span><br />Dominate the&nbsp;Rift.</h1>
+          <p class="lead">Hunt the wildest Italian brainrots, fuse them into reality-bending mythics, and build the most unhinged tycoon on Roblox.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#play">▶ Play Free Now</a>
+            <a class="btn btn-ghost" href="#brainrots">Browse the Brainrotdex →</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><div class="num" data-count="48200000">0</div><div class="lbl">TOTAL VISITS</div></div>
+            <div class="stat"><div class="num" data-count="92000">0</div><div class="lbl">PLAYING NOW</div></div>
+            <div class="stat"><div class="num" data-count="120">0</div><div class="lbl">BRAINROTS</div></div>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="float-card fc-1"><span class="emoji">🦈</span><div>Tralalero Tralala<small>+340% cash/sec</small></div></div>
+          <div class="float-card fc-2"><span class="emoji">🥁</span><div>Tung Tung Sahur<small>Legendary drop</small></div></div>
+          <div class="float-card fc-3"><span class="emoji">🐊</span><div>Bombardiro<small>Mythic fusion ready</small></div></div>
+        </div>
+      </div>
+
+      <!-- marquee -->
+      <div class="wrap">
+        <div class="marquee" aria-hidden="true">
+          <div class="marquee-track" id="marquee">
+            <span>🦈 Tralalero Tralala</span><span>🥁 Tung Tung Tung Sahur</span><span>🐊 Bombardiro Crocodilo</span>
+            <span>🌵 Lirilì Larilà</span><span>🐸 Boneca Ambalabu</span><span>🍌 Chimpanzini Bananini</span>
+            <span>☕ Cappuccino Assassino</span><span>🐒 Brr Brr Patapim</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== FEATURES (bento) ============== -->
+    <section class="block" id="features">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="dot"></span> Why it's rotting brains</span>
+          <h2>A tycoon that <span class="gradient-text">fights back.</span></h2>
+          <p>Everything you love about Roblox collectors — supercharged with fusion, rift events, and PvP heists.</p>
+        </div>
+        <div class="bento">
+          <div class="card feature-big col-4 reveal" data-tilt>
+            <div class="ico">🌀</div>
+            <h3>Rift Hunting</h3>
+            <p>Rifts tear open across the map every few minutes, spitting out rare brainrots. Camp the right rift, dodge rivals, and snag a Mythic before anyone else can grab it.</p>
+          </div>
+          <div class="card col-2 reveal" data-tilt>
+            <div class="ico">🧬</div>
+            <h3>Fusion Lab</h3>
+            <p>Combine three brainrots into something nobody's ever seen.</p>
+          </div>
+          <div class="card col-2 reveal" data-tilt>
+            <div class="ico">💰</div>
+            <h3>Idle Tycoon</h3>
+            <p>Your rots print cash 24/7 — even while you're offline.</p>
+          </div>
+          <div class="card col-2 reveal" data-tilt>
+            <div class="ico">🥷</div>
+            <h3>Base Heists</h3>
+            <p>Raid a rival's base, steal a brainrot, and run before the alarm.</p>
+          </div>
+          <div class="card col-2 reveal" data-tilt>
+            <div class="ico">🏆</div>
+            <h3>Global Ladder</h3>
+            <p>Weekly seasons, real prizes, eternal bragging rights.</p>
+          </div>
+          <div class="card feature-big col-3 reveal" data-tilt>
+            <div class="ico">🎟️</div>
+            <h3>Free Battle Pass</h3>
+            <p>100 tiers of skins, pets, boosts and exclusive brainrots — the first track is always free, no Robux required to climb.</p>
+          </div>
+          <div class="card col-3 reveal" data-tilt>
+            <div class="ico">📱</div>
+            <h3>Cross-platform</h3>
+            <p>Phone, tablet, PC and console — your rift empire follows you everywhere, perfectly synced.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== BRAINROTDEX ============== -->
+    <section class="block" id="brainrots">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="dot"></span> The Brainrotdex</span>
+          <h2>Meet the <span class="gradient-text">menagerie.</span></h2>
+          <p>120+ collectible brainrots across five rarities. Here are a few crowd favourites.</p>
+        </div>
+        <div class="rot-grid" id="rotGrid"><!-- injected by main.js --></div>
+      </div>
+    </section>
+
+    <!-- ============== HOW TO PLAY ============== -->
+    <section class="block" id="how">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="dot"></span> First 5 minutes</span>
+          <h2>From zero to <span class="gradient-text">rift lord.</span></h2>
+          <p>No tutorials to sit through. Jump in, grab a starter rot, and the chaos teaches itself.</p>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><h3>Claim your base</h3><p>Spawn in, tap a free plot, and your tycoon is officially open for business.</p></div>
+          <div class="step reveal"><h3>Catch brainrots</h3><p>Watch for glowing rifts, sprint over, and tap to capture whatever crawls out.</p></div>
+          <div class="step reveal"><h3>Fuse &amp; flex</h3><p>Drag three into the Fusion Lab, gamble for a Mythic, and dominate the ladder.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== STATS BAND ============== -->
+    <section class="block" id="stats">
+      <div class="wrap">
+        <div class="statband reveal">
+          <div class="s"><div class="n" data-count="48200000">0</div><div class="l">VISITS</div></div>
+          <div class="s"><div class="n" data-count="3100000">0</div><div class="l">FAVOURITES</div></div>
+          <div class="s"><div class="n" data-count="120">0</div><div class="l">BRAINROTS</div></div>
+          <div class="s"><div class="n" data-count="4.7" data-decimals="1">0</div><div class="l">★ RATING</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== LEADERBOARD ============== -->
+    <section class="block">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="dot"></span> Season 3 — Top Riftlords</span>
+          <h2>This week's <span class="gradient-text">legends.</span></h2>
+        </div>
+        <div class="board reveal" id="board">
+          <div class="row head"><div>#</div><div>Player</div><div>Rift Score</div></div>
+          <!-- rows injected by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== FAQ ============== -->
+    <section class="block" id="faq">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow"><span class="dot"></span> Questions</span>
+          <h2>Good to <span class="gradient-text">know.</span></h2>
+        </div>
+        <div class="faq reveal">
+          <details class="qa" open><summary>Is BRAINROT RIFT free to play?</summary><p>100% free. You can collect, fuse and climb the entire free battle pass without spending a single Robux. Premium cosmetics are optional.</p></details>
+          <details class="qa"><summary>What devices can I play on?</summary><p>Anything that runs Roblox — mobile, tablet, PC, Mac and Xbox. Your progress syncs across all of them automatically.</p></details>
+          <details class="qa"><summary>How do fusions work?</summary><p>Drop any three brainrots into the Fusion Lab. The combined rarity sets your odds — fusing three Legendaries gives the best shot at a Mythic, but even commons can surprise you.</p></details>
+          <details class="qa"><summary>Can my brainrots get stolen?</summary><p>Only during Heist windows, and only if you leave them undefended. Keep your vault upgraded and your best rots are safe.</p></details>
+          <details class="qa"><summary>How often do you update?</summary><p>New brainrots and a fresh rift event drop every weekend, with a full season reset roughly every six weeks.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== CTA ============== -->
+    <section class="block" id="play">
+      <div class="wrap">
+        <div class="cta reveal">
+          <span class="eyebrow"><span class="dot"></span> Ready when you are</span>
+          <h2>The rift is <span class="gradient-text">open.</span></h2>
+          <p>Join millions of players already hoarding brainrots. It takes ten seconds to start and a lifetime to put down.</p>
+          <div class="hero-cta" style="justify-content:center">
+            <a class="btn btn-primary" href="https://www.roblox.com/" target="_blank" rel="noopener">▶ Play on Roblox</a>
+            <a class="btn btn-ghost" href="#brainrots">See the Brainrotdex</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="site">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <a class="brand" href="#top"><span class="logo">🧠</span> BRAINROT<span style="color:var(--c2)">RIFT</span></a>
+          <p style="margin-top:1rem;max-width:34ch">A chaotic collector-tycoon built on Roblox. Collect. Fuse. Dominate the Rift.</p>
+        </div>
+        <div><h5>Game</h5><a href="#features">Features</a><a href="#brainrots">Brainrotdex</a><a href="#how">How to play</a><a href="#stats">Stats</a></div>
+        <div><h5>Community</h5><a href="#" data-soon>Discord</a><a href="#" data-soon>Roblox Group</a><a href="#" data-soon>YouTube</a><a href="#" data-soon>TikTok</a></div>
+        <div><h5>Support</h5><a href="#faq">FAQ</a><a href="#" data-soon>Report a bug</a><a href="#" data-soon>Terms</a><a href="#" data-soon>Privacy</a></div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year"></span> Brainrot Rift. A fan-made demo site. Not affiliated with Roblox Corporation.</span>
+        <span>Built with 🧠 by the Buddy crew · Daniel-Bud &amp; Mohammad-bud</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Three.js for the hero scene (module CDN) -->
+  <script type="importmap">
+  { "imports": { "three": "./assets/js/vendor-three.module.js" } }
+  </script>
+  <script type="module" src="assets/js/scene.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
