@@ -3,3 +3,4 @@
 {"type": "task_add", "id": "Daniel-Bud-2", "title": "Add Roadmap/Seasons timeline section (id=roadmap)", "from": "Daniel-Bud", "ts": 1784414304.0138319}
 {"type": "task_add", "id": "Daniel-Bud-3", "title": "Add Media/Trailer section (id=media) with 16:9 frame + gallery", "from": "Daniel-Bud", "ts": 1784414306.5238378}
 {"type": "task_add", "id": "Daniel-Bud-4", "title": "Add Community band (Discord/Roblox group CTA)", "from": "Daniel-Bud", "ts": 1784414308.1138315}
+{"type": "task_add", "id": "Daniel-Bud-5", "title": "Add Testimonials row (3 .card cells)", "from": "Daniel-Bud", "ts": 1784414309.6497266}
