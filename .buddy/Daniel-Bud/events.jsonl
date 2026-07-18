@@ -1,2 +1,3 @@
 {"type": "hello", "from": "Daniel-Bud", "ts": 1782811473.9192014}
 {"type": "task_add", "id": "Daniel-Bud-1", "title": "Expand Brainrotdex: grow BRAINROTS array to ~16 with rarities+stats", "from": "Daniel-Bud", "ts": 1784414301.88471}
+{"type": "task_add", "id": "Daniel-Bud-2", "title": "Add Roadmap/Seasons timeline section (id=roadmap)", "from": "Daniel-Bud", "ts": 1784414304.0138319}
